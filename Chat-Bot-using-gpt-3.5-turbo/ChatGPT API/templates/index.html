@@ -52,6 +52,7 @@ function highlightAll() {
         messageDiv.classList.add("bot-message");
       }
 
+      //imagem do user
       messageDiv.innerHTML = `
         <img src="{{ url_for('static', filename='images/user.png') }}" class="user-icon"><p>${message}</p>
         `;
